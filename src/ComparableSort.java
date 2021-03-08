@@ -1,7 +1,7 @@
 import java.lang.reflect.Type;
 import java.util.Comparator;
 
-public class ComparableSort<T> {
+public class ComparableSort {
     public Comparable[] comparableBubbleSort(Comparable[] array) {
         for (int i = 1; i < array.length-1;i++){
             for (int j = array.length-1; j >= i; j--){
